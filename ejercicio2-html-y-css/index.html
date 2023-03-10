@@ -4,29 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Login</title>
   </head>
   <body>
-    <main>
-      <h1>Login</h1>
-      <div>
-        <label>Email</label>
-        <input type="text" name="email" />
-      </div>
-      <div>
-        <label>Password</label>
-        <input type="password" name="password" />
-      </div>
-      <div>
-        <label>Género</label>
-        <select name="genero" size="1">
+    <main class="container">
+      <div class="title"><h1>Login</h1></div>
+      <div class="title">Email</div>
+      <div><input type="text" name="email" class="box" /></div>
+      <div class="title">Password</div>
+      <div><input type="password" name="password" class="box" /></div>
+      <div class="title">Género</div>
+        <select name="genero" size="1" class="box">
           <option>Male</option>
           <option>Female</option>
           <option>Non-Binary</option>
           <option>I prefer not to answer</option>
         </select>
       </div>
+      <div class="title"><input type="checkbox" />Acepto terminos y condiciones</div>
+      <button class="checkin">Ingresar</button>
     </main>
   </body>
 </html>

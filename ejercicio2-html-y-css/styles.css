@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  background: linear-gradient(#bd09b7, #6b4cf5);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 10px 5px 5px black;
+}
+.title {
+  color: white;
+  margin-bottom: 0;
+}
+.box {
+  padding: 7px;
+  width: 270px;
+}
+.checkin {
+  padding: 5px 15px;
+  width: 100px;
+  align-self: end;
+}
